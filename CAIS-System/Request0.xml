@@ -1,0 +1,23 @@
+<tns:ESIARegisterCertificateRequest xmlns:tns="urn://mincomsvyaz/esia/reg_service/register_certificate/1.4.1" xmlns:ns2="urn://mincomsvyaz/esia/commons/rg_sevices_types/1.4.1">
+	<tns:RoutingCode>DEV</tns:RoutingCode>
+	<tns:serialNumber>77665544</tns:serialNumber>
+	<tns:issuerOrgName>УД001</tns:issuerOrgName>
+	<tns:startDate>01.11.2017</tns:startDate>
+	<tns:expiryDate>31.10.2018</tns:expiryDate>
+	<tns:ownerType>PSO</tns:ownerType>
+	<tns:snils>229-785-346 20</tns:snils>
+	<tns:personINN>176056662438</tns:personINN>
+	<tns:lastName>Тестов</tns:lastName>
+	<tns:firstName>Тест</tns:firstName>
+	<tns:middleName>Тестович</tns:middleName>
+	<tns:gender>M</tns:gender>
+	<tns:birthDate>11.11.1988</tns:birthDate>
+	<tns:birthPlace>воронеж</tns:birthPlace>
+	<tns:doc>
+		<ns2:type>RF_PASSPORT</ns2:type>
+		<ns2:series>1111</ns2:series>
+		<ns2:number>111111</ns2:number>
+		<ns2:issueDate>01.10.2017</ns2:issueDate>
+	</tns:doc>
+	<tns:citizenship>RUS</tns:citizenship>
+</tns:ESIARegisterCertificateRequest> 
