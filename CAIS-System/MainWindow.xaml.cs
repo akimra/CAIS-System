@@ -23,55 +23,28 @@ namespace CAIS_System
     public partial class MainWindow : Window
     {
         NodeSmev smev = new NodeSmev();
-        private static StringBuilder cmdOutput = null;
-        static string outCmdInfo;
-        Process cmdProcess;
-        StreamWriter cmdStreamWriter;
         public MainWindow()
         {
             InitializeComponent();
         }
+        ~MainWindow()
+        {
+            smev.CloseChannel();
+        }
         private void MainWindow_Load (object sender, EventArgs e)
         {
-           
+            smev.OpenChannel();
         }
         private void MainWindow_Dispatch (object sender, EventArgs e)
         {
-            cmdStreamWriter.Close();
-            cmdProcess.WaitForExit();
-            cmdProcess.Close();
+
         }
-        private static void SortOutputHandler(object sendingProcess, DataReceivedEventArgs outLine)
+        
+        private async void SendRequestButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                cmdOutput.Append(Environment.NewLine + outLine.Data);
-                outCmdInfo = outLine.Data;
-                MessageBox.Show(outCmdInfo);
-            }
-            
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            cmdOutput = new StringBuilder("");
-            cmdProcess = new Process();
-
-            cmdProcess.StartInfo.FileName = "cmd.exe";
-            cmdProcess.StartInfo.UseShellExecute = false;
-            cmdProcess.StartInfo.CreateNoWindow = true;
-            cmdProcess.StartInfo.RedirectStandardOutput = true;
-
-            cmdProcess.OutputDataReceived += new DataReceivedEventHandler(SortOutputHandler);
-            cmdProcess.StartInfo.RedirectStandardInput = true;
-            cmdProcess.Start();
-
-            cmdStreamWriter = cmdProcess.StandardInput;
-            cmdProcess.BeginOutputReadLine();
-            cmdStreamWriter.WriteLine("identitytool.bat");
-            
-            smev.SendMessage(outCmdInfo);
-
+            TestSmevService.SendRequestResponse response = await smev.SendMessage();
+            if (response != null)
+                { response.ToString(); }
         }
     }
 }

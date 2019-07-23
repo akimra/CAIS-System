@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:CAIS_System"
         mc:Ignorable="d"
         Title="CAIS" Height="450" Width="800">
-    <StackPanel>
-        <Button Height="100" Width="300" Content="SendReq" Margin="100,100,100,100" Click="Button_Click"/>
-        <TextBox x:Name="txtcmd" Height="400" Width="300" Margin="10,10,10,10"/>
-    </StackPanel>
+    <Button x:Name="SendRequestButton" Content="SendReq" Click="SendRequestButton_Click"/>
 </Window>

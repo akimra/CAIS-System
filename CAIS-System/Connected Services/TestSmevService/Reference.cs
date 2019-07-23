@@ -2589,7 +2589,7 @@ namespace CAIS_System.TestSmevService {
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         CAIS_System.TestSmevService.SendRequestResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.SendRequest(CAIS_System.TestSmevService.SendRequestRequest request) {
-            return base.Channel.SendRequest(request);
+            return base.Channel.SendRequest(request); //TODO: Здесь возможно нужно заинжектить подпись, если не работает на классе NodeSmev
         }
         
         public CAIS_System.TestSmevService.MessageMetadata SendRequest(CAIS_System.TestSmevService.SenderProvidedRequestData SenderProvidedRequestData, CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature, out System.Xml.XmlElement SMEVSignature) {
@@ -2603,6 +2603,7 @@ namespace CAIS_System.TestSmevService {
         }
         
         public System.Threading.Tasks.Task<CAIS_System.TestSmevService.SendRequestResponse> SendRequestAsync(CAIS_System.TestSmevService.SendRequestRequest request) {
+            
             return base.Channel.SendRequestAsync(request);
         }
         
