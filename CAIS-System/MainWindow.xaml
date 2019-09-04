@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:CAIS_System"
         mc:Ignorable="d"
         Title="CAIS" Height="450" Width="800">
-    <Button x:Name="SendRequestButton" Content="SendReq" Click="SendRequestButton_Click"/>
+    <Button x:Name="SendRequestButton" MaxHeight="80" MaxWidth="300" Content="SendReq" Click="SendRequestButton_Click"/>
 </Window>

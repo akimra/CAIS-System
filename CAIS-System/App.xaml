@@ -4,6 +4,19 @@
              xmlns:local="clr-namespace:CAIS_System"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+      <Style TargetType="Button">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Background">
+          <Setter.Value>
+            <LinearGradientBrush StartPoint="0,0.5"
+                                    EndPoint="1,0.5">
+              <GradientStop Color="#cccccc" Offset="0.0" />
+              <GradientStop Color="#333333" Offset="0.9" />
+            </LinearGradientBrush>
+
+          </Setter.Value>
+        </Setter>
+      </Style>
     </Application.Resources>
 </Application>

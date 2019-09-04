@@ -14,12 +14,17 @@ namespace CAIS_System
         private static readonly Uri address = new Uri("http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws");
         private static readonly BasicHttpBinding binding = new BasicHttpBinding("SMEVMessageExchangeSoap11Binding");
         private static readonly EndpointAddress endpoint = new EndpointAddress(address);
-        private static ChannelFactory<TestSmevService.SMEVMessageExchangePortTypeChannel> port = new ChannelFactory<TestSmevService.SMEVMessageExchangePortTypeChannel>(binding, endpoint);
-        private static TestSmevService.SMEVMessageExchangePortTypeChannel channel = port.CreateChannel();
-        private static TestSmevService.SendRequestRequest req = new TestSmevService.SendRequestRequest();
+        private static ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel> port =
+            new ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel>(binding, endpoint);
+        private static SmevExchange.SMEVMessageExchangePortTypeChannel channel = port.CreateChannel();
+        
         public NodeSmev()
         {
-            
+
+        }
+        ~NodeSmev()
+        {
+            CloseChannel();
         }
         public void OpenChannel()
         {
@@ -29,7 +34,7 @@ namespace CAIS_System
         {
             channel.Close();
         }
-        public string GetMessageId()
+        public async Task<string> GetMessageId()
         {
             // ----------------------------Блок получения Message ID-------------------------------//
             // ЧЕРЕЗ API!!!!!!!
@@ -39,39 +44,48 @@ namespace CAIS_System
             using (var webClient = new WebClient())
             {
 
-                var response = webClient.DownloadString(url);
+                var response = await Task.Run(() => webClient.DownloadString(url));
                 messageId = response.Substring(0, 36);
             }
             return messageId;
             //-----------------------------Блок получения Message ID-------------------------------//
         }
 
-        public async Task<TestSmevService.SendRequestResponse> SendMessage()
+        public async Task<SmevExchange.SendRequestResponse> SendMessage()
         {
+            SmevExchange.SendRequestRequest req = new SmevExchange.SendRequestRequest();
             string st, messageId="";
             System.Xml.XmlDocument doc = new System.Xml.XmlDocument();
             doc.Load("Request0.xml");                                                                //Импорт сгенерированного xml запроса (пока тест)
-            req.SenderProvidedRequestData = new TestSmevService.SenderProvidedRequestData
+            req.SenderProvidedRequestData = new SmevExchange.SenderProvidedRequestData
             {
                 MessagePrimaryContent = doc.DocumentElement, //TODO: приложение данных запроса в xml из nodeparse
-                TestMessage = new TestSmevService.Void(),
-                AttachmentHeaderList = new TestSmevService.AttachmentHeaderList()
+                TestMessage = new SmevExchange.Void(),
+                AttachmentHeaderList = new SmevExchange.AttachmentHeaderList()
             };
+
+            //  тут заглушка под подпись
             System.Xml.XmlDocument signature = new System.Xml.XmlDocument();
             signature.Load("CallerSignature.xml");
             req.CallerInformationSystemSignature = signature.DocumentElement;
+
+            NodeCrypto Cryp = new NodeCrypto();
             try
             {
-                messageId = GetMessageId();
+                messageId = await GetMessageId();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            req.SenderProvidedRequestData.MessageID = messageId.ToString();
-            st = Serialize(req);
+            finally
+            {
+                req.SenderProvidedRequestData.MessageID = messageId;
+                st = Serialize(req);
+            }
             
-            TestSmevService.SendRequestResponse sendreqresp = new TestSmevService.SendRequestResponse();
+            
+            SmevExchange.SendRequestResponse sendreqresp = new SmevExchange.SendRequestResponse();
             try
             {
                 sendreqresp = await Task.Run(() => channel.SendRequestAsync(req));
@@ -79,15 +93,15 @@ namespace CAIS_System
             
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Ошибка");
-                return null;
+                ErrorHandler.ErrorHandling(ex);
+                return sendreqresp;
             }
             return sendreqresp;
         }
-        //--------------------------Пока вспопогательная функция, возможно это будет в классе NodeParse-------------------------------//
+        //--------------------------Пока вспомогательная функция, возможно это будет в классе NodeParse-------------------------------//
         public string Serialize<TType> (TType sourceObject)
         {
-            if (sourceObject == null)
+            if ((object)sourceObject == null)
             {
                 return string.Empty;
             }
@@ -100,9 +114,6 @@ namespace CAIS_System
             }
         }
         //------------------------------------------------------------------------------------------------------------------------------//
-        protected void ThrowErrorMessageBox(string message)
-        {
-
-        }
+        
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Jj+71MSRgCGFpD/7jsZT1MFb39Q=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Zwbt6VwHcHZKHzOWprQIY7JZ4ro=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="SMEVMessageExchangeSoap11Binding">
       <properties>
@@ -112,7 +112,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="SMEVMessageExchangeEndpoint" contract="TestSmevService.SMEVMessageExchangePortType" bindingType="basicHttpBinding" address="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws" bindingConfiguration="SMEVMessageExchangeSoap11Binding">
+    <endpoint name="SMEVMessageExchangeEndpoint" contract="ServiceReference1.SMEVMessageExchangePortType" bindingType="basicHttpBinding" address="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws" bindingConfiguration="SMEVMessageExchangeSoap11Binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws</serializedValue>
@@ -127,7 +127,7 @@
           <serializedValue>SMEVMessageExchangeSoap11Binding</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>TestSmevService.SMEVMessageExchangePortType</serializedValue>
+          <serializedValue>ServiceReference1.SMEVMessageExchangePortType</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

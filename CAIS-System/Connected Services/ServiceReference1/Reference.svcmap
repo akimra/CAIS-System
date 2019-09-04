@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e8010c0d-1346-4558-9e88-0a1860afbf6c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="254ae2e1-b527-438d-82db-9ee0bad3330d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ws.xsd" MetadataType="Schema" ID="2023ef29-6ee7-4467-a04f-02b5a84549dc" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-faults-1.2.xsd" />
-    <MetadataFile FileName="ws.wsdl" MetadataType="Wsdl" ID="d2760bc2-4c49-4046-a446-26770e322b1f" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?wsdl" />
-    <MetadataFile FileName="ws1.xsd" MetadataType="Schema" ID="575a4996-64c6-46ff-8af2-8be73548a964" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-basic-1.2.xsd" />
-    <MetadataFile FileName="ws2.xsd" MetadataType="Schema" ID="2352d607-259f-4be4-b231-c7d92870fa39" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-types-1.2.xsd" />
+    <MetadataFile FileName="ws.xsd" MetadataType="Schema" ID="7707a73a-78fe-412f-8540-0324f9e668a3" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-faults-1.2.xsd" />
+    <MetadataFile FileName="ws.wsdl" MetadataType="Wsdl" ID="f138b22a-2b73-48a3-bced-1fc92040eb24" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?wsdl" />
+    <MetadataFile FileName="ws1.xsd" MetadataType="Schema" ID="75ad12e2-bab3-43ea-888e-a36fc7a5ae60" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-basic-1.2.xsd" />
+    <MetadataFile FileName="ws2.xsd" MetadataType="Schema" ID="1abbc004-e13c-43e5-8561-db2419109aed" SourceId="1" SourceUrl="http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws?xsd=smev-message-exchange-types-1.2.xsd" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

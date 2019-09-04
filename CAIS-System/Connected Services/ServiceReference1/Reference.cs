@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAIS_System.TestSmevService {
+namespace CAIS_System.ServiceReference1 {
     
     
     /// <remarks/>
@@ -19,7 +19,7 @@ namespace CAIS_System.TestSmevService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AttachmentSizeLimitExceeded))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvalidContent))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessDataTypeIsNotSupported))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -37,7 +37,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -83,7 +83,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -157,7 +157,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -223,7 +223,7 @@ namespace CAIS_System.TestSmevService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AttachmentSizeLimitExceeded))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvalidContent))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessDataTypeIsNotSupported))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -260,7 +260,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -297,7 +297,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -320,7 +320,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
     public enum SignatureVerificationFaultSignatureVerificationFault {
@@ -345,7 +345,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -382,7 +382,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -419,7 +419,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -442,7 +442,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -488,7 +488,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -525,110 +525,110 @@ namespace CAIS_System.TestSmevService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2", ConfigurationName="TestSmevService.SMEVMessageExchangePortType")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2", ConfigurationName="ServiceReference1.SMEVMessageExchangePortType")]
     public interface SMEVMessageExchangePortType {
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:SendRequest", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.BusinessDataTypeIsNotSupported), Action="urn:SendRequest", Name="BusinessDataTypeIsNotSupported", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:SendRequest", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.AttachmentSizeLimitExceeded), Action="urn:SendRequest", Name="AttachmentSizeLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SmevFault), Action="urn:SendRequest", Name="TransactionCodeInvalid", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="EndOfLifeReached", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.QuoteLimitExceeded), Action="urn:SendRequest", Name="QuoteLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="AccessDenied", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="MessageIsAlreadySent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="RecipientIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="AttachmentContentMiscoordination", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.DestinationOverflow), Action="urn:SendRequest", Name="DestinationOverflow", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:SendRequest", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="InvalidMessageIdFormat", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendRequest", Name="StaleMessageId", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.BusinessDataTypeIsNotSupported), Action="urn:SendRequest", Name="BusinessDataTypeIsNotSupported", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:SendRequest", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.AttachmentSizeLimitExceeded), Action="urn:SendRequest", Name="AttachmentSizeLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SmevFault), Action="urn:SendRequest", Name="TransactionCodeInvalid", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="EndOfLifeReached", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.QuoteLimitExceeded), Action="urn:SendRequest", Name="QuoteLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="AccessDenied", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="MessageIsAlreadySent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="RecipientIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="AttachmentContentMiscoordination", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.DestinationOverflow), Action="urn:SendRequest", Name="DestinationOverflow", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:SendRequest", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="InvalidMessageIdFormat", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendRequest", Name="StaleMessageId", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.SendRequestResponse SendRequest(CAIS_System.TestSmevService.SendRequestRequest request);
+        CAIS_System.ServiceReference1.SendRequestResponse SendRequest(CAIS_System.ServiceReference1.SendRequestRequest request);
         
         // CODEGEN: Идет формирование контракта на сообщение, так как операция может иметь много возвращаемых значений.
         [System.ServiceModel.OperationContractAttribute(Action="urn:SendRequest", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.SendRequestResponse> SendRequestAsync(CAIS_System.TestSmevService.SendRequestRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.SendRequestResponse> SendRequestAsync(CAIS_System.ServiceReference1.SendRequestRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:SendResponse", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.BusinessDataTypeIsNotSupported), Action="urn:SendResponse", Name="BusinessDataTypeIsNotSupported", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:SendResponse", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.AttachmentSizeLimitExceeded), Action="urn:SendResponse", Name="AttachmentSizeLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="IncorrectResponseContentType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.QuoteLimitExceeded), Action="urn:SendResponse", Name="QuoteLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="MessageIsAlreadySent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="RecipientIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="AttachmentContentMiscoordination", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.DestinationOverflow), Action="urn:SendResponse", Name="DestinationOverflow", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:SendResponse", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="InvalidMessageIdFormat", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:SendResponse", Name="StaleMessageId", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.BusinessDataTypeIsNotSupported), Action="urn:SendResponse", Name="BusinessDataTypeIsNotSupported", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:SendResponse", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.AttachmentSizeLimitExceeded), Action="urn:SendResponse", Name="AttachmentSizeLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="IncorrectResponseContentType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.QuoteLimitExceeded), Action="urn:SendResponse", Name="QuoteLimitExceeded", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="MessageIsAlreadySent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="RecipientIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="AttachmentContentMiscoordination", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.DestinationOverflow), Action="urn:SendResponse", Name="DestinationOverflow", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:SendResponse", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="InvalidMessageIdFormat", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:SendResponse", Name="StaleMessageId", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.SendResponseResponse SendResponse(CAIS_System.TestSmevService.SendResponseRequest request);
+        CAIS_System.ServiceReference1.SendResponseResponse SendResponse(CAIS_System.ServiceReference1.SendResponseRequest request);
         
         // CODEGEN: Идет формирование контракта на сообщение, так как операция может иметь много возвращаемых значений.
         [System.ServiceModel.OperationContractAttribute(Action="urn:SendResponse", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.SendResponseResponse> SendResponseAsync(CAIS_System.TestSmevService.SendResponseRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.SendResponseResponse> SendResponseAsync(CAIS_System.ServiceReference1.SendResponseRequest request);
         
         // CODEGEN: Контракт генерации сообщений с пространством имен упаковщика (urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2) сообщения GetStatusRequest не соответствует значению по умолчанию (urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2).
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetStatus", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetStatus", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:GetStatus", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetStatus", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetStatus", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:GetStatus", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetStatus", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:GetStatus", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetStatus", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetStatus", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:GetStatus", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.GetStatusResponse GetStatus(CAIS_System.TestSmevService.GetStatusRequest request);
+        CAIS_System.ServiceReference1.GetStatusResponse GetStatus(CAIS_System.ServiceReference1.GetStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetStatusResponse> GetStatusAsync(CAIS_System.TestSmevService.GetStatusRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetStatusResponse> GetStatusAsync(CAIS_System.ServiceReference1.GetStatusRequest request);
         
         // CODEGEN: Контракт генерации сообщений с пространством имен упаковщика (urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2) сообщения GetRequestRequest не соответствует значению по умолчанию (urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2).
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetRequest", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetRequest", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:GetRequest", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetRequest", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetRequest", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:GetRequest", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetRequest", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:GetRequest", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetRequest", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetRequest", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:GetRequest", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.GetRequestResponse GetRequest(CAIS_System.TestSmevService.GetRequestRequest request);
+        CAIS_System.ServiceReference1.GetRequestResponse GetRequest(CAIS_System.ServiceReference1.GetRequestRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetRequest", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetRequestResponse> GetRequestAsync(CAIS_System.TestSmevService.GetRequestRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetRequestResponse> GetRequestAsync(CAIS_System.ServiceReference1.GetRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с пространством имен упаковщика (urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2) сообщения GetResponseRequest не соответствует значению по умолчанию (urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2).
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetResponse", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetResponse", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:GetResponse", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetResponse", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:GetResponse", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:GetResponse", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetResponse", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:GetResponse", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetResponse", Name="UnknownMessageType", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:GetResponse", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:GetResponse", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.GetResponseResponse GetResponse(CAIS_System.TestSmevService.GetResponseRequest request);
+        CAIS_System.ServiceReference1.GetResponseResponse GetResponse(CAIS_System.ServiceReference1.GetResponseRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:GetResponse", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetResponseResponse> GetResponseAsync(CAIS_System.TestSmevService.GetResponseRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetResponseResponse> GetResponseAsync(CAIS_System.ServiceReference1.GetResponseRequest request);
         
         // CODEGEN: Контракт генерации сообщений с пространством имен упаковщика (urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2) сообщения AckRequest не соответствует значению по умолчанию (urn://x-artefacts-smev-gov-ru/services/message-exchange/1.2).
         [System.ServiceModel.OperationContractAttribute(Action="urn:Ack", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:Ack", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:Ack", Name="TargetMessageIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.InvalidContent), Action="urn:Ack", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.Void), Action="urn:Ack", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
-        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.TestSmevService.SignatureVerificationFault), Action="urn:Ack", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:Ack", Name="SMEVFailure", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:Ack", Name="TargetMessageIsNotFound", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.InvalidContent), Action="urn:Ack", Name="InvalidContent", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.Void), Action="urn:Ack", Name="SenderIsNotRegistered", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
+        [System.ServiceModel.FaultContractAttribute(typeof(CAIS_System.ServiceReference1.SignatureVerificationFault), Action="urn:Ack", Name="SignatureVerificationFault", Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        CAIS_System.TestSmevService.AckResponse Ack(CAIS_System.TestSmevService.AckRequest request);
+        CAIS_System.ServiceReference1.AckResponse Ack(CAIS_System.ServiceReference1.AckRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Ack", ReplyAction="*")]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.AckResponse> AckAsync(CAIS_System.TestSmevService.AckRequest request);
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.AckResponse> AckAsync(CAIS_System.ServiceReference1.AckRequest request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -651,9 +651,9 @@ namespace CAIS_System.TestSmevService {
         
         private System.Xml.XmlElement personalSignatureField;
         
-        private AttachmentHeaderList attachmentHeaderListField;
+        private AttachmentHeaderType[] attachmentHeaderListField;
         
-        private RefAttachmentHeaderList refAttachmentHeaderListField;
+        private RefAttachmentHeaderType[] refAttachmentHeaderListField;
         
         private SenderProvidedRequestDataBusinessProcessMetadata businessProcessMetadataField;
         
@@ -759,7 +759,7 @@ namespace CAIS_System.TestSmevService {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AttachmentHeaderList", typeof(AttachmentHeaderList), Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=7)]
-        public AttachmentHeaderList AttachmentHeaderList {
+        public AttachmentHeaderType[] AttachmentHeaderList {
             get {
                 return this.attachmentHeaderListField;
             }
@@ -771,7 +771,7 @@ namespace CAIS_System.TestSmevService {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RefAttachmentHeaderList", typeof(RefAttachmentHeaderList), Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=8)]
-        public RefAttachmentHeaderList RefAttachmentHeaderList {
+        public RefAttachmentHeaderType[] RefAttachmentHeaderList {
             get {
                 return this.refAttachmentHeaderListField;
             }
@@ -828,18 +828,18 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
     public partial class AttachmentHeaderList : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private AttachmentHeaderList attachmentHeaderField;
+        private AttachmentHeaderType[] attachmentHeaderField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AttachmentHeader", Order=0)]
-        public AttachmentHeaderList AttachmentHeader {
+        public AttachmentHeaderType[] AttachmentHeader {
             get {
                 return this.attachmentHeaderField;
             }
@@ -860,18 +860,18 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
     public partial class RefAttachmentHeaderList : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private RefAttachmentHeaderList refAttachmentHeaderField;
+        private RefAttachmentHeaderType[] refAttachmentHeaderField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RefAttachmentHeader", Order=0)]
-        public RefAttachmentHeaderList RefAttachmentHeader {
+        public RefAttachmentHeaderType[] RefAttachmentHeader {
             get {
                 return this.refAttachmentHeaderField;
             }
@@ -892,7 +892,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -924,18 +924,18 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
     public partial class AttachmentContentList : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private AttachmentContentList attachmentContentField;
+        private AttachmentContentType[] attachmentContentField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AttachmentContent", Order=0)]
-        public AttachmentContentList AttachmentContent {
+        public AttachmentContentType[] AttachmentContent {
             get {
                 return this.attachmentContentField;
             }
@@ -956,7 +956,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1114,7 +1114,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2")]
     public enum MessageTypeType {
@@ -1130,7 +1130,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1162,7 +1162,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1194,7 +1194,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
     public enum InteractionStatusType {
@@ -1236,11 +1236,11 @@ namespace CAIS_System.TestSmevService {
     public partial class SendRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.SenderProvidedRequestData SenderProvidedRequestData;
+        public CAIS_System.ServiceReference1.SenderProvidedRequestData SenderProvidedRequestData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("AttachmentContentList", typeof(AttachmentContentList), Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList;
+        public CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=2)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -1248,7 +1248,7 @@ namespace CAIS_System.TestSmevService {
         public SendRequestRequest() {
         }
         
-        public SendRequestRequest(CAIS_System.TestSmevService.SenderProvidedRequestData SenderProvidedRequestData, CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public SendRequestRequest(CAIS_System.ServiceReference1.SenderProvidedRequestData SenderProvidedRequestData, CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.SenderProvidedRequestData = SenderProvidedRequestData;
             this.AttachmentContentList = AttachmentContentList;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
@@ -1261,7 +1261,7 @@ namespace CAIS_System.TestSmevService {
     public partial class SendRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.MessageMetadata MessageMetadata;
+        public CAIS_System.ServiceReference1.MessageMetadata MessageMetadata;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement SMEVSignature;
@@ -1269,14 +1269,14 @@ namespace CAIS_System.TestSmevService {
         public SendRequestResponse() {
         }
         
-        public SendRequestResponse(CAIS_System.TestSmevService.MessageMetadata MessageMetadata, System.Xml.XmlElement SMEVSignature) {
+        public SendRequestResponse(CAIS_System.ServiceReference1.MessageMetadata MessageMetadata, System.Xml.XmlElement SMEVSignature) {
             this.MessageMetadata = MessageMetadata;
             this.SMEVSignature = SMEVSignature;
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1372,7 +1372,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1446,7 +1446,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1492,7 +1492,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2")]
     public enum RejectCode {
@@ -1511,7 +1511,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1571,7 +1571,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1617,7 +1617,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", IncludeInSchema=false)]
     public enum ItemsChoiceType {
@@ -1656,11 +1656,11 @@ namespace CAIS_System.TestSmevService {
     public partial class SendResponseRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.SenderProvidedResponseData SenderProvidedResponseData;
+        public CAIS_System.ServiceReference1.SenderProvidedResponseData SenderProvidedResponseData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("AttachmentContentList", typeof(AttachmentContentList), Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList;
+        public CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=2)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -1668,7 +1668,7 @@ namespace CAIS_System.TestSmevService {
         public SendResponseRequest() {
         }
         
-        public SendResponseRequest(CAIS_System.TestSmevService.SenderProvidedResponseData SenderProvidedResponseData, CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public SendResponseRequest(CAIS_System.ServiceReference1.SenderProvidedResponseData SenderProvidedResponseData, CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.SenderProvidedResponseData = SenderProvidedResponseData;
             this.AttachmentContentList = AttachmentContentList;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
@@ -1681,7 +1681,7 @@ namespace CAIS_System.TestSmevService {
     public partial class SendResponseResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.MessageMetadata MessageMetadata;
+        public CAIS_System.ServiceReference1.MessageMetadata MessageMetadata;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement SMEVSignature;
@@ -1689,14 +1689,14 @@ namespace CAIS_System.TestSmevService {
         public SendResponseResponse() {
         }
         
-        public SendResponseResponse(CAIS_System.TestSmevService.MessageMetadata MessageMetadata, System.Xml.XmlElement SMEVSignature) {
+        public SendResponseResponse(CAIS_System.ServiceReference1.MessageMetadata MessageMetadata, System.Xml.XmlElement SMEVSignature) {
             this.MessageMetadata = MessageMetadata;
             this.SMEVSignature = SMEVSignature;
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1742,7 +1742,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1788,7 +1788,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1841,7 +1841,7 @@ namespace CAIS_System.TestSmevService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.Timestamp Timestamp;
+        public CAIS_System.ServiceReference1.Timestamp Timestamp;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -1849,7 +1849,7 @@ namespace CAIS_System.TestSmevService {
         public GetStatusRequest() {
         }
         
-        public GetStatusRequest(CAIS_System.TestSmevService.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public GetStatusRequest(CAIS_System.ServiceReference1.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.Timestamp = Timestamp;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
         }
@@ -1862,18 +1862,18 @@ namespace CAIS_System.TestSmevService {
     public partial class GetStatusResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.SmevAsyncProcessingMessage SmevAsyncProcessingMessage;
+        public CAIS_System.ServiceReference1.SmevAsyncProcessingMessage SmevAsyncProcessingMessage;
         
         public GetStatusResponse() {
         }
         
-        public GetStatusResponse(CAIS_System.TestSmevService.SmevAsyncProcessingMessage SmevAsyncProcessingMessage) {
+        public GetStatusResponse(CAIS_System.ServiceReference1.SmevAsyncProcessingMessage SmevAsyncProcessingMessage) {
             this.SmevAsyncProcessingMessage = SmevAsyncProcessingMessage;
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1961,7 +1961,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2008,7 +2008,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2111,7 +2111,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2192,7 +2192,7 @@ namespace CAIS_System.TestSmevService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector;
+        public CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -2200,7 +2200,7 @@ namespace CAIS_System.TestSmevService {
         public GetRequestRequest() {
         }
         
-        public GetRequestRequest(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public GetRequestRequest(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.MessageTypeSelector = MessageTypeSelector;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
         }
@@ -2213,18 +2213,18 @@ namespace CAIS_System.TestSmevService {
     public partial class GetRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
-        public CAIS_System.TestSmevService.GetRequestResponseRequestMessage RequestMessage;
+        public CAIS_System.ServiceReference1.GetRequestResponseRequestMessage RequestMessage;
         
         public GetRequestResponse() {
         }
         
-        public GetRequestResponse(CAIS_System.TestSmevService.GetRequestResponseRequestMessage RequestMessage) {
+        public GetRequestResponse(CAIS_System.ServiceReference1.GetRequestResponseRequestMessage RequestMessage) {
             this.RequestMessage = RequestMessage;
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2284,7 +2284,7 @@ namespace CAIS_System.TestSmevService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2422,7 +2422,7 @@ namespace CAIS_System.TestSmevService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector;
+        public CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -2430,7 +2430,7 @@ namespace CAIS_System.TestSmevService {
         public GetResponseRequest() {
         }
         
-        public GetResponseRequest(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public GetResponseRequest(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.MessageTypeSelector = MessageTypeSelector;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
         }
@@ -2444,18 +2444,18 @@ namespace CAIS_System.TestSmevService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("ResponseMessage")]
-        public CAIS_System.TestSmevService.GetResponseResponseResponseMessage Item;
+        public CAIS_System.ServiceReference1.GetResponseResponseResponseMessage Item;
         
         public GetResponseResponse() {
         }
         
-        public GetResponseResponse(CAIS_System.TestSmevService.GetResponseResponseResponseMessage Item) {
+        public GetResponseResponse(CAIS_System.ServiceReference1.GetResponseResponseResponseMessage Item) {
             this.Item = Item;
         }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.3761.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2536,7 +2536,7 @@ namespace CAIS_System.TestSmevService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2")]
-        public CAIS_System.TestSmevService.AckTargetMessage AckTargetMessage;
+        public CAIS_System.ServiceReference1.AckTargetMessage AckTargetMessage;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2", Order=1)]
         public System.Xml.XmlElement CallerInformationSystemSignature;
@@ -2544,7 +2544,7 @@ namespace CAIS_System.TestSmevService {
         public AckRequest() {
         }
         
-        public AckRequest(CAIS_System.TestSmevService.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
+        public AckRequest(CAIS_System.ServiceReference1.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
             this.AckTargetMessage = AckTargetMessage;
             this.CallerInformationSystemSignature = CallerInformationSystemSignature;
         }
@@ -2561,12 +2561,12 @@ namespace CAIS_System.TestSmevService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface SMEVMessageExchangePortTypeChannel : CAIS_System.TestSmevService.SMEVMessageExchangePortType, System.ServiceModel.IClientChannel {
+    public interface SMEVMessageExchangePortTypeChannel : CAIS_System.ServiceReference1.SMEVMessageExchangePortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SMEVMessageExchangePortTypeClient : System.ServiceModel.ClientBase<CAIS_System.TestSmevService.SMEVMessageExchangePortType>, CAIS_System.TestSmevService.SMEVMessageExchangePortType {
+    public partial class SMEVMessageExchangePortTypeClient : System.ServiceModel.ClientBase<CAIS_System.ServiceReference1.SMEVMessageExchangePortType>, CAIS_System.ServiceReference1.SMEVMessageExchangePortType {
         
         public SMEVMessageExchangePortTypeClient() {
         }
@@ -2588,141 +2588,140 @@ namespace CAIS_System.TestSmevService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.SendRequestResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.SendRequest(CAIS_System.TestSmevService.SendRequestRequest request) {
-            return base.Channel.SendRequest(request); //TODO: Здесь возможно нужно заинжектить подпись, если не работает на классе NodeSmev
+        CAIS_System.ServiceReference1.SendRequestResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.SendRequest(CAIS_System.ServiceReference1.SendRequestRequest request) {
+            return base.Channel.SendRequest(request);
         }
         
-        public CAIS_System.TestSmevService.MessageMetadata SendRequest(CAIS_System.TestSmevService.SenderProvidedRequestData SenderProvidedRequestData, CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature, out System.Xml.XmlElement SMEVSignature) {
-            CAIS_System.TestSmevService.SendRequestRequest inValue = new CAIS_System.TestSmevService.SendRequestRequest();
+        public CAIS_System.ServiceReference1.MessageMetadata SendRequest(CAIS_System.ServiceReference1.SenderProvidedRequestData SenderProvidedRequestData, CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature, out System.Xml.XmlElement SMEVSignature) {
+            CAIS_System.ServiceReference1.SendRequestRequest inValue = new CAIS_System.ServiceReference1.SendRequestRequest();
             inValue.SenderProvidedRequestData = SenderProvidedRequestData;
             inValue.AttachmentContentList = AttachmentContentList;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.SendRequestResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).SendRequest(inValue);
+            CAIS_System.ServiceReference1.SendRequestResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).SendRequest(inValue);
             SMEVSignature = retVal.SMEVSignature;
             return retVal.MessageMetadata;
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.SendRequestResponse> SendRequestAsync(CAIS_System.TestSmevService.SendRequestRequest request) {
-            
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.SendRequestResponse> SendRequestAsync(CAIS_System.ServiceReference1.SendRequestRequest request) {
             return base.Channel.SendRequestAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.SendResponseResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.SendResponse(CAIS_System.TestSmevService.SendResponseRequest request) {
+        CAIS_System.ServiceReference1.SendResponseResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.SendResponse(CAIS_System.ServiceReference1.SendResponseRequest request) {
             return base.Channel.SendResponse(request);
         }
         
-        public CAIS_System.TestSmevService.MessageMetadata SendResponse(CAIS_System.TestSmevService.SenderProvidedResponseData SenderProvidedResponseData, CAIS_System.TestSmevService.AttachmentContentList AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature, out System.Xml.XmlElement SMEVSignature) {
-            CAIS_System.TestSmevService.SendResponseRequest inValue = new CAIS_System.TestSmevService.SendResponseRequest();
+        public CAIS_System.ServiceReference1.MessageMetadata SendResponse(CAIS_System.ServiceReference1.SenderProvidedResponseData SenderProvidedResponseData, CAIS_System.ServiceReference1.AttachmentContentType[] AttachmentContentList, System.Xml.XmlElement CallerInformationSystemSignature, out System.Xml.XmlElement SMEVSignature) {
+            CAIS_System.ServiceReference1.SendResponseRequest inValue = new CAIS_System.ServiceReference1.SendResponseRequest();
             inValue.SenderProvidedResponseData = SenderProvidedResponseData;
             inValue.AttachmentContentList = AttachmentContentList;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.SendResponseResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).SendResponse(inValue);
+            CAIS_System.ServiceReference1.SendResponseResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).SendResponse(inValue);
             SMEVSignature = retVal.SMEVSignature;
             return retVal.MessageMetadata;
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.SendResponseResponse> SendResponseAsync(CAIS_System.TestSmevService.SendResponseRequest request) {
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.SendResponseResponse> SendResponseAsync(CAIS_System.ServiceReference1.SendResponseRequest request) {
             return base.Channel.SendResponseAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.GetStatusResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetStatus(CAIS_System.TestSmevService.GetStatusRequest request) {
+        CAIS_System.ServiceReference1.GetStatusResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetStatus(CAIS_System.ServiceReference1.GetStatusRequest request) {
             return base.Channel.GetStatus(request);
         }
         
-        public CAIS_System.TestSmevService.SmevAsyncProcessingMessage GetStatus(CAIS_System.TestSmevService.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetStatusRequest inValue = new CAIS_System.TestSmevService.GetStatusRequest();
+        public CAIS_System.ServiceReference1.SmevAsyncProcessingMessage GetStatus(CAIS_System.ServiceReference1.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetStatusRequest inValue = new CAIS_System.ServiceReference1.GetStatusRequest();
             inValue.Timestamp = Timestamp;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.GetStatusResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetStatus(inValue);
+            CAIS_System.ServiceReference1.GetStatusResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetStatus(inValue);
             return retVal.SmevAsyncProcessingMessage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetStatusResponse> CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetStatusAsync(CAIS_System.TestSmevService.GetStatusRequest request) {
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetStatusResponse> CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetStatusAsync(CAIS_System.ServiceReference1.GetStatusRequest request) {
             return base.Channel.GetStatusAsync(request);
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetStatusResponse> GetStatusAsync(CAIS_System.TestSmevService.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetStatusRequest inValue = new CAIS_System.TestSmevService.GetStatusRequest();
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetStatusResponse> GetStatusAsync(CAIS_System.ServiceReference1.Timestamp Timestamp, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetStatusRequest inValue = new CAIS_System.ServiceReference1.GetStatusRequest();
             inValue.Timestamp = Timestamp;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            return ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetStatusAsync(inValue);
+            return ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.GetRequestResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetRequest(CAIS_System.TestSmevService.GetRequestRequest request) {
+        CAIS_System.ServiceReference1.GetRequestResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetRequest(CAIS_System.ServiceReference1.GetRequestRequest request) {
             return base.Channel.GetRequest(request);
         }
         
-        public CAIS_System.TestSmevService.GetRequestResponseRequestMessage GetRequest(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetRequestRequest inValue = new CAIS_System.TestSmevService.GetRequestRequest();
+        public CAIS_System.ServiceReference1.GetRequestResponseRequestMessage GetRequest(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetRequestRequest inValue = new CAIS_System.ServiceReference1.GetRequestRequest();
             inValue.MessageTypeSelector = MessageTypeSelector;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.GetRequestResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetRequest(inValue);
+            CAIS_System.ServiceReference1.GetRequestResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetRequest(inValue);
             return retVal.RequestMessage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetRequestResponse> CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetRequestAsync(CAIS_System.TestSmevService.GetRequestRequest request) {
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetRequestResponse> CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetRequestAsync(CAIS_System.ServiceReference1.GetRequestRequest request) {
             return base.Channel.GetRequestAsync(request);
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetRequestResponse> GetRequestAsync(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetRequestRequest inValue = new CAIS_System.TestSmevService.GetRequestRequest();
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetRequestResponse> GetRequestAsync(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetRequestRequest inValue = new CAIS_System.ServiceReference1.GetRequestRequest();
             inValue.MessageTypeSelector = MessageTypeSelector;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            return ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetRequestAsync(inValue);
+            return ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetRequestAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.GetResponseResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetResponse(CAIS_System.TestSmevService.GetResponseRequest request) {
+        CAIS_System.ServiceReference1.GetResponseResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetResponse(CAIS_System.ServiceReference1.GetResponseRequest request) {
             return base.Channel.GetResponse(request);
         }
         
-        public CAIS_System.TestSmevService.GetResponseResponseResponseMessage GetResponse(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetResponseRequest inValue = new CAIS_System.TestSmevService.GetResponseRequest();
+        public CAIS_System.ServiceReference1.GetResponseResponseResponseMessage GetResponse(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetResponseRequest inValue = new CAIS_System.ServiceReference1.GetResponseRequest();
             inValue.MessageTypeSelector = MessageTypeSelector;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.GetResponseResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetResponse(inValue);
+            CAIS_System.ServiceReference1.GetResponseResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetResponse(inValue);
             return retVal.Item;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetResponseResponse> CAIS_System.TestSmevService.SMEVMessageExchangePortType.GetResponseAsync(CAIS_System.TestSmevService.GetResponseRequest request) {
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetResponseResponse> CAIS_System.ServiceReference1.SMEVMessageExchangePortType.GetResponseAsync(CAIS_System.ServiceReference1.GetResponseRequest request) {
             return base.Channel.GetResponseAsync(request);
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.GetResponseResponse> GetResponseAsync(CAIS_System.TestSmevService.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.GetResponseRequest inValue = new CAIS_System.TestSmevService.GetResponseRequest();
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.GetResponseResponse> GetResponseAsync(CAIS_System.ServiceReference1.MessageTypeSelector MessageTypeSelector, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.GetResponseRequest inValue = new CAIS_System.ServiceReference1.GetResponseRequest();
             inValue.MessageTypeSelector = MessageTypeSelector;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            return ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).GetResponseAsync(inValue);
+            return ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).GetResponseAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CAIS_System.TestSmevService.AckResponse CAIS_System.TestSmevService.SMEVMessageExchangePortType.Ack(CAIS_System.TestSmevService.AckRequest request) {
+        CAIS_System.ServiceReference1.AckResponse CAIS_System.ServiceReference1.SMEVMessageExchangePortType.Ack(CAIS_System.ServiceReference1.AckRequest request) {
             return base.Channel.Ack(request);
         }
         
-        public void Ack(CAIS_System.TestSmevService.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.AckRequest inValue = new CAIS_System.TestSmevService.AckRequest();
+        public void Ack(CAIS_System.ServiceReference1.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.AckRequest inValue = new CAIS_System.ServiceReference1.AckRequest();
             inValue.AckTargetMessage = AckTargetMessage;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            CAIS_System.TestSmevService.AckResponse retVal = ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).Ack(inValue);
+            CAIS_System.ServiceReference1.AckResponse retVal = ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).Ack(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<CAIS_System.TestSmevService.AckResponse> CAIS_System.TestSmevService.SMEVMessageExchangePortType.AckAsync(CAIS_System.TestSmevService.AckRequest request) {
+        System.Threading.Tasks.Task<CAIS_System.ServiceReference1.AckResponse> CAIS_System.ServiceReference1.SMEVMessageExchangePortType.AckAsync(CAIS_System.ServiceReference1.AckRequest request) {
             return base.Channel.AckAsync(request);
         }
         
-        public System.Threading.Tasks.Task<CAIS_System.TestSmevService.AckResponse> AckAsync(CAIS_System.TestSmevService.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
-            CAIS_System.TestSmevService.AckRequest inValue = new CAIS_System.TestSmevService.AckRequest();
+        public System.Threading.Tasks.Task<CAIS_System.ServiceReference1.AckResponse> AckAsync(CAIS_System.ServiceReference1.AckTargetMessage AckTargetMessage, System.Xml.XmlElement CallerInformationSystemSignature) {
+            CAIS_System.ServiceReference1.AckRequest inValue = new CAIS_System.ServiceReference1.AckRequest();
             inValue.AckTargetMessage = AckTargetMessage;
             inValue.CallerInformationSystemSignature = CallerInformationSystemSignature;
-            return ((CAIS_System.TestSmevService.SMEVMessageExchangePortType)(this)).AckAsync(inValue);
+            return ((CAIS_System.ServiceReference1.SMEVMessageExchangePortType)(this)).AckAsync(inValue);
         }
     }
 }

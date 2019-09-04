@@ -29,7 +29,7 @@ namespace CAIS_System
         }
         ~MainWindow()
         {
-            smev.CloseChannel();
+            if(smev != null) smev.CloseChannel();
         }
         private void MainWindow_Load (object sender, EventArgs e)
         {
@@ -42,9 +42,24 @@ namespace CAIS_System
         
         private async void SendRequestButton_Click(object sender, RoutedEventArgs e)
         {
-            TestSmevService.SendRequestResponse response = await smev.SendMessage();
-            if (response != null)
-                { response.ToString(); }
+            
+            SmevExchange.SendRequestResponse response = new SmevExchange.SendRequestResponse();
+            try
+            {
+                response = await smev.SendMessage();
+            }
+            catch(Exception exception)
+            {
+                ErrorHandler.ErrorHandling(exception);
+            }
+            finally
+            {
+                if (response != null)
+                {
+                    response.ToString();
+                }
+            }
+            
         }
     }
 }

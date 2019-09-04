@@ -8,13 +8,29 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CAIS_System</RootNamespace>
     <AssemblyName>CAIS-System</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,9 +52,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CryptoPro.Sharpei.Base, Version=1.4.0.10, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoPro.Sharpei.Xml, Version=1.4.0.10, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.Xml.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,12 +83,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Connected Services\TestSmevService\Reference.cs">
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="ErrorHandler.cs" />
+    <Compile Include="NodeCrypto.cs" />
+    <Compile Include="NodeParse.cs" />
     <Compile Include="NodeSmev.cs" />
+    <Compile Include="SmevExchange.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,69 +124,50 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.AckResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.AckResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.GetRequestResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.GetRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.GetRequestResponseRequestMessage.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.GetRequestResponseRequestMessage.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.GetResponseResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.GetResponseResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.GetResponseResponseResponseMessage.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.GetResponseResponseResponseMessage.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.GetStatusResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.GetStatusResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.MessageMetadata.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.MessageMetadata.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.SendRequestResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.SendRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.SendResponseResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.SendResponseResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\CAIS_System.TestSmevService.SmevAsyncProcessingMessage.datasource">
+    <None Include="Connected Services\ServiceReference1\CAIS_System.ServiceReference1.SmevAsyncProcessingMessage.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\TestSmevService\ws.wsdl" />
-    <None Include="Connected Services\TestSmevService\ws.xsd">
+    <None Include="Connected Services\ServiceReference1\ws.wsdl" />
+    <None Include="Connected Services\ServiceReference1\ws.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\TestSmevService\ws1.xsd">
+    <None Include="Connected Services\ServiceReference1\ws1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\TestSmevService\ws2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="esia_rg_register_certificate.xsd">
+    <None Include="Connected Services\ServiceReference1\ws2.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\DataSources\System.Xml.XmlElement.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="smev-message-exchange-basic-1.3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="smev-message-exchange-directive-1.3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="smev-message-exchange-faults-1.3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="smev-message-exchange-routing-1.3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="smev-message-exchange-service-1.3.wsdl" />
-    <None Include="smev-message-exchange-types-1.3.xsd">
-      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -174,22 +184,34 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\TestSmevService\" />
+    <Resource Include="CallerSignature.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\TestSmevService\configuration91.svcinfo" />
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\TestSmevService\configuration.svcinfo" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\TestSmevService\Reference.svcmap">
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="CallerSignature.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
