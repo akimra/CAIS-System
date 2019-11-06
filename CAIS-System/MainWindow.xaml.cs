@@ -42,7 +42,7 @@ namespace CAIS_System
         
         private async void SendRequestButton_Click(object sender, RoutedEventArgs e)
         {
-            
+
             SmevExchange.SendRequestResponse response = new SmevExchange.SendRequestResponse();
             try
             {
@@ -56,7 +56,7 @@ namespace CAIS_System
             {
                 if (response != null)
                 {
-                    response.ToString();
+                    MessageBox.Show(response.ToString());
                 }
             }
             

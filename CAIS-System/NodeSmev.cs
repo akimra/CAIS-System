@@ -6,21 +6,30 @@ using System.Threading.Tasks;
 using System.ServiceModel;
 using System.Windows;
 using System.Net;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace CAIS_System
 {
     class NodeSmev
     {
-        private static readonly Uri address = new Uri("http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws");
-        private static readonly BasicHttpBinding binding = new BasicHttpBinding("SMEVMessageExchangeSoap11Binding");
-        private static readonly EndpointAddress endpoint = new EndpointAddress(address);
-        private static ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel> port =
-            new ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel>(binding, endpoint);
-        private static SmevExchange.SMEVMessageExchangePortTypeChannel channel = port.CreateChannel();
+        private Uri address;
+        private BasicHttpBinding binding;
+        private EndpointAddress endpoint;
+        private ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel> port;
+        private SmevExchange.SMEVMessageExchangePortTypeChannel channel;
         
-        public NodeSmev()
+        public NodeSmev(bool isTest = true)
         {
+            if (isTest)
+            {
+                address = new Uri("http://smev3-n0.test.gosuslugi.ru:7500/smev/v1.2/ws");
+                binding = new BasicHttpBinding("SMEVMessageExchangeSoap11Binding");
+                endpoint = new EndpointAddress(address);
+            }
 
+            port = new ChannelFactory<SmevExchange.SMEVMessageExchangePortTypeChannel>(binding, endpoint);
+            channel = port.CreateChannel();
         }
         ~NodeSmev()
         {
@@ -34,7 +43,7 @@ namespace CAIS_System
         {
             channel.Close();
         }
-        public async Task<string> GetMessageId()
+        private async Task<string> GetMessageId()
         {
             // ----------------------------Блок получения Message ID-------------------------------//
             // ЧЕРЕЗ API!!!!!!!
@@ -55,21 +64,15 @@ namespace CAIS_System
         {
             SmevExchange.SendRequestRequest req = new SmevExchange.SendRequestRequest();
             string st, messageId="";
-            System.Xml.XmlDocument doc = new System.Xml.XmlDocument();
-            doc.Load("Request0.xml");                                                                //Импорт сгенерированного xml запроса (пока тест)
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Request0.xml");                                      //Импорт сгенерированного xml запроса (пока тест)
             req.SenderProvidedRequestData = new SmevExchange.SenderProvidedRequestData
             {
                 MessagePrimaryContent = doc.DocumentElement, //TODO: приложение данных запроса в xml из nodeparse
-                TestMessage = new SmevExchange.Void(),
-                AttachmentHeaderList = new SmevExchange.AttachmentHeaderList()
+                //TestMessage = new SmevExchange.Void(),
+                //AttachmentHeaderList = new SmevExchange.AttachmentHeaderList()
             };
 
-            //  тут заглушка под подпись
-            System.Xml.XmlDocument signature = new System.Xml.XmlDocument();
-            signature.Load("CallerSignature.xml");
-            req.CallerInformationSystemSignature = signature.DocumentElement;
-
-            NodeCrypto Cryp = new NodeCrypto();
             try
             {
                 messageId = await GetMessageId();
@@ -81,21 +84,53 @@ namespace CAIS_System
             finally
             {
                 req.SenderProvidedRequestData.MessageID = messageId;
-                st = Serialize(req);
             }
-            
-            
+
+            req.SenderProvidedRequestData.AttachmentHeaderList = new SmevExchange.AttachmentHeaderList();
+            req.SenderProvidedRequestData.TestMessage = new SmevExchange.Void();
+
+            XmlDocument toSign = new XmlDocument();
+            toSign.LoadXml(Serialize(req));
+
+            XmlDocument signed = NodeCrypto.Demo(toSign);
+
+            if (signed.GetElementsByTagName("CallerInformationSystemSignature").Count > 1)
+                throw new Exception("Более одного блока подписи недопустимо");
+
+            XmlDocument childsSignature = new XmlDocument();
+            childsSignature.LoadXml(signed.GetElementsByTagName("CallerInformationSystemSignature")[0].InnerXml);
+            req.CallerInformationSystemSignature = childsSignature.DocumentElement;
+
+            //try
+            //{
+            //    messageId = await GetMessageId();
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
+            //finally
+            //{
+            //    req.SenderProvidedRequestData.MessageID = messageId;
+            //}
+
+            //req.SenderProvidedRequestData.AttachmentHeaderList = new SmevExchange.AttachmentHeaderList();
+            //req.SenderProvidedRequestData.TestMessage = new SmevExchange.Void();
+
+            MessageBox.Show(Serialize(req));
+
             SmevExchange.SendRequestResponse sendreqresp = new SmevExchange.SendRequestResponse();
             try
             {
                 sendreqresp = await Task.Run(() => channel.SendRequestAsync(req));
             }
-            
+
             catch (Exception ex)
             {
                 ErrorHandler.ErrorHandling(ex);
                 return sendreqresp;
             }
+
             return sendreqresp;
         }
         //--------------------------Пока вспомогательная функция, возможно это будет в классе NodeParse-------------------------------//
@@ -105,9 +140,9 @@ namespace CAIS_System
             {
                 return string.Empty;
             }
-            var serializer = new System.Xml.Serialization.XmlSerializer(typeof(TType));
+            var serializer = new XmlSerializer(typeof(TType));
             System.IO.StringWriter stringWriter = new System.IO.StringWriter();
-            using (System.Xml.XmlWriter writer = System.Xml.XmlWriter.Create(stringWriter, new System.Xml.XmlWriterSettings() { Indent = true }))
+            using (XmlWriter writer = XmlWriter.Create(stringWriter, new XmlWriterSettings() { Indent = true }))
             {
                 serializer.Serialize(writer, sourceObject);
                 return stringWriter.ToString();
